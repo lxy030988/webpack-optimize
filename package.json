@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
-    "dev": "webpack --progress"
+    "dev": "webpack --progress",
+    "analyzer": "webpack-bundle-analyzer --port 8888 ./dist/stats.json"
   },
   "keywords": [],
   "author": "",

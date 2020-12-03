@@ -29,6 +29,9 @@ module.exports = smw.wrap({
         });
       },
     }),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      analyzerMode: "disabled", //不启动展示打包报告的HTTP服务器
+      generateStatsFile: true, //要生成stats.json文件
+    }),
   ],
 });

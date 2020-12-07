@@ -1,0 +1,10 @@
+body{
+    background-color: green;
+    color:red;
+}
+#root{
+    color: red;
+}
+#other{
+    color: green;
+}
